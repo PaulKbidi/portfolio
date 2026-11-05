@@ -1,18 +1,17 @@
 import Link from "next/link";
-import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { href: "/", label: "Accueil" },
   { href: "/about", label: "À propos" },
-  { href: "/projects", label: "Projets" },
+  { href: "https://github.com/PaulKbidi", label: "Projets" },
   { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
   return (
-    <header className="border-b border-neutral-200 dark:border-neutral-800">
+    <header className="border-b border-neutral-200">
       <nav className="mx-auto flex max-w-5xl items-center justify-between p-4">
-        <Link href="/" className="font-semibold">Paul K Bidi</Link>
+        <Link href="/" className="font-semibold">Paul K/BIDI</Link>
         <div className="flex items-center gap-6">
           <ul className="flex gap-6 text-sm">
             {links.map((l) => (
@@ -21,7 +20,6 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <ThemeToggle />
         </div>
       </nav>
     </header>
