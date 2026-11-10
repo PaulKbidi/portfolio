@@ -3,8 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
-  // Seulement si l'URL est https://<user>.github.io/<repo> :
-  // basePath: "/<repo>",
+  basePath: "/portfolio",
   turbopack: {
     rules: {
       "*.css": {
