@@ -3,10 +3,13 @@ export default function Home() {
     <section className="py-20">
       <h1 className="text-4xl font-bold">À propos</h1>
       <p className="mt-4 text-lg">
-        Je suis un développeur web passionné par la création d'expériences numériques innovantes et fonctionnelles. 
-        Avec une solide expérience en développement front-end et back-end, je m'efforce de transformer les idées en solutions concrètes.
-        Je suis constamment à la recherche de nouvelles technologies et de défis stimulants pour améliorer mes compétences et contribuer à des projets significatifs.
+        Développeur Python de 26 ans avec 2 ans d'expérience en alternance, je me réoriente vers la Data
+        Science et le Data Engineering. Maîtrise de Python (Django), des bases de données SQL, du déploiement
+        Docker et des méthodes Agile. Curieux et rigoureux, je souhaite mettre mes compétences en
+        développement au service de la collecte, du traitement et de l'analyse de données au sein d'une équipe
+        data.
       </p>
+      <h1 className="text-4xl font-bold mt-8">Compétences</h1>
       <table className="table shadow-2xl shadow-neutral-900 mt-8">
         <thead>
           <tr className="text-cyan-700">
@@ -22,7 +25,7 @@ export default function Home() {
             <td>Docker, Linux / Debian</td>
           </tr>
           <tr>
-            <td>Python orientée data : pandas, numpy, scikit-learn</td>
+            <td>Python data : pandas, numpy, scikit-learn</td>
             <td>Bases de données relationnelles</td>
             <td>Serveurs Web (Nginx, Apache)</td>
           </tr>
